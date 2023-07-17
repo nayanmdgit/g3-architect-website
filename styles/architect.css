@@ -11,7 +11,7 @@
   /* header styles */
    header{
     background: rgba(255, 144, 14, 0.10);
-    padding: 50px 180px;
+    padding: 3rem 9rem;
   }
 nav{
   display: flex;
@@ -97,7 +97,7 @@ nav li a {
   display: flex;
   align-items: center;
   /* gap: 5rem; */
-  padding: 4rem 9rem;
+  padding: 4rem 10rem;
 }
 .feature-image{
   display: grid;
@@ -135,4 +135,66 @@ nav li a {
   color: #FF900E;
   font-size: 2.8rem;
   font-weight: 700;
+}
+
+/* features2 related styles */
+.features2{
+  display: flex;
+  align-items: center;
+  padding: 3rem 8rem;
+  gap: 2rem;
+}
+.features2-image img{
+  width: 33rem;
+  margin-left: 2rem;
+  height: 90%;
+}
+
+.ten-years-badge{
+
+  color: #FFF;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 700;
+  background: #FF900E;
+  border-radius: 0.5rem;
+  padding: 2rem;
+  width: 12rem;
+  position: relative;
+  bottom: 4.5rem;
+  right: 2rem
+ 
+
+  
+
+}
+.features2-content{
+  padding-top: 1rem;
+}
+.features2-content > h3{
+ border-left: 0.25rem solid #FF900E;
+ padding: 0rem 1.5rem;
+
+}
+
+.feature-features{
+  padding-right: 3rem;
+  padding-top: 2rem;
+}
+
+.features-description-unit{
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  background: #FFF;
+  box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+  margin-bottom: 1rem;
+
+}
+
+.features-description-unit > h3 {
+  margin-bottom: 0;
+}
+
+.features-description-unit > p {
+  margin-top: 0;
 }
