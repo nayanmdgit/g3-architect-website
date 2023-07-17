@@ -84,14 +84,7 @@ nav li a {
 
 /* responsive media quaries */
 
-@media screen and (max-width: 576px;){
-  header{
-    padding: 20px;
-  }
-  nav{
-    flex-direction: column;
-  }
-}
+
 /* feature styles */
 .feature{
   display: flex;
@@ -197,4 +190,51 @@ nav li a {
 
 .features-description-unit > p {
   margin-top: 0;
+}
+
+@media screen and (max-width: 576px){
+  header{
+    padding: 20px;
+    background-color: bisque;
+    text-align: justify;
+    background-position: absolute;
+  
+  }
+
+  .banner-title{
+    font-size: 50px;
+  }
+  nav,
+  .feature, .features2 {
+    padding: 20px;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 80px;
+  }
+  .feature-image{
+    padding: 20px;
+    margin-bottom: 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+}
+
+.team1{
+  width: 100px;
+}
+.features2-image img{
+ width: 100%;
+ 
+}
+
+}
+/* medium devices */
+
+@media screen and (min-width:576px) and (max-width:960px){
+  header{
+    padding: 50px;
+  }
+  nav{
+    flex-direction: column;
+  }
 }
