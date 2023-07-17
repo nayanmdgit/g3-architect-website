@@ -60,7 +60,7 @@ nav li a {
 .banner-description{
   color: #727272;
   text-align: center;
-  font-size: 1rem;
+  font-size: 0.91rem;
   font-weight: 400;
   margin-top: 1rem;
 }
@@ -78,6 +78,61 @@ nav li a {
   margin-top: 2rem;
 }
 
-img{
+.banner img{
   width: 100%;
+}
+
+/* responsive media quaries */
+
+@media screen and (max-width: 576px;){
+  header{
+    padding: 20px;
+  }
+  nav{
+    flex-direction: column;
+  }
+}
+/* feature styles */
+.feature{
+  display: flex;
+  align-items: center;
+  /* gap: 5rem; */
+  padding: 4rem 9rem;
+}
+.feature-image{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.25rem;
+  
+}
+.feature-content{
+  margin-left: 3rem;
+}
+
+.feature-content-description{
+  color: #727272;
+  font-size: 0.91rem;
+  font-weight: 400;
+  margin-top: 1rem;
+
+}
+.team1{
+  width: 240px;
+
+}
+
+.Quick-list{
+  color: #727272;
+  font-size: 2.8rem;
+  font-weight: 500;
+}
+.of-our{
+  color: #131313;
+  font-size: 2.8rem;
+  font-weight: 700;
+}
+.colored-features{
+  color: #FF900E;
+  font-size: 2.8rem;
+  font-weight: 700;
 }
